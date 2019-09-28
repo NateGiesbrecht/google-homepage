@@ -1,0 +1,65 @@
+.search{
+    font-family: Arial, ;
+    
+}
+
+.logo{
+    position:relative;
+    top:400px;
+    left:44%;
+    width: 250px;
+   
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgb(240, 236, 236);
+}
+
+li{
+    float:left;
+    font-family:Arial;
+}
+
+li a{
+    color:rgb(145, 143, 143);
+    display:block;
+    width:60px;
+    padding: 14px 16px;
+    text-align:center;
+    text-decoration:none; 
+}
+
+li.right{
+    float:right;
+}
+
+li a:hover {
+    background-color: rgb(224, 221, 221);
+  }
+
+li.bottom{
+    float:bottom;
+    font-family:Arial;
+}
+
+
+form{
+    position:relative;
+    top:400px;
+    left:38%;
+    width: 250px;
+}
+
+input[type=text]{
+    width:500px;
+}
+button{
+    position:relative;
+    top:420px;
+    left:43%;
+    margin:5px;
+}
